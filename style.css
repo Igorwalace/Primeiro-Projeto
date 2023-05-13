@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+html, body{
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+.center{
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+header{
+    background-color: #3d589b;
+    padding: 10px 0; 
+}
+.logo {
+    padding-top: 1.3%;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    float: left;
+}
+.form-login:focus {
+    border: none;
+}
+.form-login{
+    font-size: 12px;
+    color: white;
+    float: right;
+}
+.login p{
+    padding-top: 1%;
+}
+.login{
+    padding: 5px 0;
+    padding-left: 7px;
+    display: inline-block;
+}
+input[type=email], input[type=password]{
+    width: 150px;
+    border: 0.8px solid #1d3871;
+    padding: 4px;
+    height: 25px;
+    margin-top: 5px;
+}
+input[type=submit]{
+    cursor: pointer;
+    color: white;
+    padding: 3px 8px;
+    background-color: #5f78ab;
+    border: 1px solid #1d3871;
+}
+input[type=submit]:hover{
+    background-color: #5a74a7;
+}
+.main{
+    /*
+    background: linear-gradient(white, #d3d8e8);*/
+    background-color: #e7ebf2;
+}
+.img h3{
+    color: #0e385f;
+    font-family: arial;
+}
+.img h4{
+    color: #0e385f;
+    font-family: arial;
+    padding-bottom: 10px;
+}
+.img{
+    width: 55%;
+    padding-top: 35px;
+    float: left;
+}
+.sign-up{
+    width: 45%;
+    float: left;
+}
+.sign-up h2, .sign-up h3{
+    margin-left: 10px;
+}
+.sign-up > h2{
+    font-family: "Koya Sans";
+    padding-top: 15px;
+    font-size: 33px;
+}
+.sign-up > h3{
+    padding: 5px 0 13px 0;
+    font-weight: normal;
+}
+.w50{
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+.w100{
+    width: 100%;
+    padding: 0 5px;
+    float: left;
+}
+form.abrir-conta input{
+    width: 100%;
+}
+.abrir-conta input[type=text],
+.abrir-conta input[type=email],
+.abrir-conta input[type=password]{
+    height: 45px;
+    margin-top: 10px;
+    border: 1px solid #999999;
+    padding: 0 8px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 14px;
+}
+.abrir-conta input[type=text]::placeholder,
+.abrir-conta input[type=email]::placeholder,
+.abrir-conta input[type=password]::placeholder {
+    color: #9b9b9b;
+    letter-spacing: 1.3px;
+}
+.birthday h2{
+    margin-left: 10px;
+    font-family: arial;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.birthday input[type=date]{
+    width: 50%;
+    margin-left: 4px;
+    padding: 2px 50px;
+    font-size: 14px;
+}
+.birthday span a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.sexo{
+    padding-top: 15px;
+    float: left;
+    width: 30%;
+}
+.sexo h3{
+    font-weight: normal;
+    display: inline-block;
+}
+.sexo input[type=radio]{
+    margin-top: 5px;
+    float: left;
+}
+a{
+    color: #3b5998;
+}
+.p, a{
+    font-family: "Bokeseni";
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 13px;
+}
+.button input[type=submit]:hover {
+    background-color: #86c26c;
+}
+.button input[type=submit]{
+    border-radius: 5px;
+    border: 1px solid #5d814f;
+    margin: 15px 4px;
+    margin-bottom: 20px;
+    width: 45%;
+    font-family: "Koya Sans";
+    font-size: 20px;
+    padding: 7px;
+    background-color: #5e994b;
+}
+.button{
+    border-bottom: 1px solid #b4bbce;
+}
+.p1{
+    padding-top: 15px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-family: "Bokeseni";
+}
+footer .subfinal{
+    margin-left: 10%;
+    padding: 6px 0;
+    width: 70%;
+}
+footer input[type=submit]:hover{
+    background-color: #dbdbdb;
+}
+footer input[type=submit]{
+    background-color: #eceff5;
+    border: none;
+    color: black;
+    padding: -20px;
+}
+.final{
+    border-top: 1px solid #e7e7e7;
+    margin-left: 10%;
+    padding-top: 6px;
+    width: 75%;
+    padding-bottom: 6px;
+}
+.final p{
+    font-size: 12px;
+    color: #9e9e9e;
+}
+footer span a{
+    font-size: 12px;
+    color: #3b5998;
+}
+footer span{
+    padding-top: 6px;
+    border-top: 2px solid #e7e7e7;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #9e9e9e;
+}
+@media screen and (max-width: 895px){   
+    .img{
+        display: none;
+    }
+    .sign-up{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 530px){
+    .logo {
+        width: 100%;
+        text-align: center;
+        float: left;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .form-login{
+        text-align: center;
+        float: none;
+    }
+    .login p{
+        padding-top: 0%;
+    }
+    .login{
+        display: block;
+    }
+}
